@@ -48,6 +48,9 @@
 ;; テキストファイル／新規バッファの文字コード
 (prefer-coding-system 'utf-8-dos)
 
+;; 新規ファイルの文字コードと改行コード（UTF-8 / CRLF）
+(setq-default buffer-file-coding-system 'utf-8-dos)
+
 ;; ファイル名の文字コード
 (set-file-name-coding-system 'utf-8-dos)
 
